@@ -1,0 +1,51 @@
+{
+  "hitos": [
+    {
+      "id": 1,
+      "titulo": "¡Falla Crítica!",
+      "descripcion": "El hotel está colapsado por un evento inesperado. Recepción abarrotada, maletas perdidas y huéspedes furiosos. El personal está desbordado.",
+      "color": "#FFEBEE",
+      "sonido": "alerta.mp3",
+      "testimonio": "¡Esto es inaceptable! Llevo 1 hora esperando mi habitación - Carlos M.",
+      "opciones": [
+        {"texto": "Activar protocolo de crisis", "siguiente": 2},
+        {"texto": "Reiniciar simulación", "siguiente": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Estrategias RH-55",
+      "descripcion": "Protocolo de recuperación parcial activado: staff adicional en recepción, vouchers de bebidas gratis y habitaciones prioritarias para los más afectados.",
+      "color": "#FFF3CD",
+      "sonido": "notificacion.mp3",
+      "testimonio": "Al menos nos dieron un cóctel gratis... pero sigo molesto - Ana L.",
+      "opciones": [
+        {"texto": "Ver impacto en clientes", "siguiente": 3},
+        {"texto": "Reiniciar simulación", "siguiente": 1}
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Recuperación Parcial (55%)",
+      "descripcion": "El 55% de los clientes muestran mejoría. Algunos tweets negativos persisten, pero el servicio básico ya funciona.",
+      "color": "#E3F2FD",
+      "sonido": "alivio.mp3",
+      "testimonio": "Sigue sin ser perfecto, pero al menos respondieron a mi queja - Diego R.",
+      "opciones": [
+        {"texto": "Aplicar medidas premium", "siguiente": 4},
+        {"texto": "Reiniciar simulación", "siguiente": 1}
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Recuperación Completa (85%)",
+      "descripcion": "Protocolo RH-85: upgrades de habitaciones, cartas de disculpas personalizadas y ofertas exclusivas. La mayoría de clientes están satisfechos.",
+      "color": "#E8F5E9",
+      "sonido": "exito.mp3",
+      "testimonio": "Quedé impresionado con las disculpas del gerente. ¡Volveré! - Laura K.",
+      "opciones": [
+        {"texto": "Finalizar experiencia", "siguiente": 1}
+      ]
+    }
+  ]
+}

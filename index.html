@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Hotel</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      transition: background 0.5s;
+    }
+    #contenedor {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .testimonio {
+      background: rgba(0,0,0,0.05);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="contenedor">
+    <h1 id="titulo"></h1>
+    <p id="descripcion"></p>
+    <div class="testimonio" id="testimonio"></div>
+    <div id="opciones"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
