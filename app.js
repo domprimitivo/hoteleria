@@ -26,12 +26,18 @@ function mostrarHito(id) {
 
   const hito = hitos[id];
   hitoActual = id;
-  
+    if (hito.color) {
+    document.body.style.backgroundColor = hito.color;
+    console.log("Color aplicado:", hito.color); // Para debug
+  } else {
+    doc
+  }  
   // Actualizar UI
   document.getElementById('titulo').textContent = hito.titulo || 'Sin título';
   document.getElementById('descripcion').textContent = hito.descripcion || '';
   document.getElementById('testimonio').textContent = hito.testimonio ? `"${hito.testimonio}"` : 'Sin testimonio';
-  
+
+
   // Botones de opciones
   const opcionesDiv = document.getElementById('opciones');
   opcionesDiv.innerHTML = '';
